@@ -195,7 +195,7 @@ spec:
       runAfter:
       - build-container
       taskRef:
-        bundle: quay.io/redhat-appstudio-tekton-catalog/task-sanity-inspect-image:0.1@sha256:1ff8cea8259a415a7ca6de7d47ade692813721653f89166f549e732cecaf2dcf
+        bundle: quay.io/redhat-appstudio-tekton-catalog/task-sanity-inspect-image:0.1@sha256:b9ad0ed56be21c9e3c8e2e636275f92d887e57681c718cd36f117eb6fa547824
         name: sanity-inspect-image
       when:
       - input: $(params.skip-checks)
