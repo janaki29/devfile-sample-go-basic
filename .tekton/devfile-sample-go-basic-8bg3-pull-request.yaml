@@ -253,7 +253,7 @@ spec:
         - name: name
           value: inspect-image
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-inspect-image:0.1@sha256:604531fb0ec3ddb4ec51e9dbd7f0074cd226093e77ba59a3d9ea5a31293889da
+          value: quay.io/redhat-appstudio-tekton-catalog/task-inspect-image:0.1@sha256:0156db3bfde2b463b0f5610706c469f4ecc5c0bcdaf79f9e49f242e74ccd6347
         - name: kind
           value: task
         resolver: bundles
