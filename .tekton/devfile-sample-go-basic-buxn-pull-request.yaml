@@ -290,7 +290,7 @@ spec:
       runAfter:
       - build-container
       taskRef:
-        bundle: quay.io/redhat-appstudio-tekton-catalog/task-clamav-scan:0.1@sha256:2e19ce2503a8471878fe070364066328e4f2912205ee4aaaf9d66a30037d1cb7
+        bundle: quay.io/redhat-appstudio-tekton-catalog/task-clamav-scan:0.1@sha256:1b186d53eeab12f0ae1b7aa333e9cf2b2c9dcc9751f5e940ca935a168bba5a7d
         name: clamav-scan
       when:
       - input: $(params.skip-checks)
