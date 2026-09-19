@@ -151,7 +151,7 @@ spec:
       runAfter:
       - appstudio-configure-build
       taskRef:
-        bundle: quay.io/redhat-appstudio-tekton-catalog/task-prefetch-dependencies:0.1@sha256:d2f044dc2b9646007c6ae7298fac50971a7a2460e933980313fd689c76226233
+        bundle: quay.io/redhat-appstudio-tekton-catalog/task-prefetch-dependencies:0.1@sha256:7142f299621fcb02a8eb01dc4ddd93230143847f59038ba8f973cb07f69db367
         name: prefetch-dependencies
       when:
       - input: $(params.hermetic)
