@@ -37,7 +37,7 @@ spec:
       - name: image-url
         value: $(params.output-image)
       taskRef:
-        bundle: quay.io/redhat-appstudio-tekton-catalog/task-summary:0.1@sha256:245f5017f0a58840212cfd2de0a50844f78b2b2c74976289f34b238bdaa700e5
+        bundle: quay.io/redhat-appstudio-tekton-catalog/task-summary:0.1@sha256:4d7a2201ce4cb6dca8a48f4d9d4e02d5d3b57ef8eb99009675f1a34f2923ae49
         name: summary
     params:
     - description: Source Repository URL
