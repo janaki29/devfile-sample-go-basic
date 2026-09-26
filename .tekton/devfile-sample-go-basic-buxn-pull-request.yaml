@@ -28,18 +28,6 @@ spec:
   - name: revision
     value: '{{revision}}'
   pipelineSpec:
-    finally:
-    - name: show-summary
-      params:
-      - name: pipeline-run-name
-        value: $(context.pipelineRun.name)
-      - name: git-url
-        value: $(tasks.clone-repository.results.url)?rev=$(tasks.clone-repository.results.commit)
-      - name: image-url
-        value: $(params.output-image)
-      taskRef:
-        bundle: quay.io/redhat-appstudio-tekton-catalog/task-summary:0.1@sha256:245f5017f0a58840212cfd2de0a50844f78b2b2c74976289f34b238bdaa700e5
-        name: summary
     params:
     - description: Source Repository URL
       name: git-url
