@@ -41,7 +41,7 @@ spec:
         - name: name
           value: show-sbom
         - name: bundle
-          value: quay.io/redhat-appstudio-tekton-catalog/task-show-sbom:0.1@sha256:4b8a47b3cd3f80d0a9ec46ec43fd2ebe0487979f351a8eeebe5aa04854d3861c
+          value: quay.io/redhat-appstudio-tekton-catalog/task-show-sbom:0.3@sha256:1302cc71501829ae4ae8947619a4daf97294e40c8f4c46a54ce15f3ce78b3b1b
         - name: kind
           value: task
         resolver: bundles
